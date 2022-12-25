@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Mursaat:AnimatedGradientTextView:v0.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51a15a039e7a01ff3da2beaf6faea58d/jetified-AnimatedGradientTextView-v0.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51a15a039e7a01ff3da2beaf6faea58d/jetified-AnimatedGradientTextView-v0.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51a15a039e7a01ff3da2beaf6faea58d/jetified-AnimatedGradientTextView-v0.0.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

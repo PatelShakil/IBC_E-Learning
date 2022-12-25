@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="40dp"
+    android:elevation="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/textbox_outline"
+        android:backgroundTint="@color/semister">
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/sub_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/tajawal_regular"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="30dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:paddingHorizontal="30dp"/>
+
+        <TextView
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Edit Note"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+            android:paddingHorizontal="30dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:paddingHorizontal="30dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Delete Note"
+        android:textColor="@color/black"
+        android:paddingHorizontal="30dp"
+        android:textSize="16sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingHorizontal="30dp"
+            android:background="@color/black"/>
+
+        <TextView
+        android:id="@+id/cancel"
+            android:paddingHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Cancel"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

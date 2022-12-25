@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "419354789438",
+    "firebase_url": "https://fabchat-3d6d0-default-rtdb.firebaseio.com",
+    "project_id": "fabchat-3d6d0",
+    "storage_bucket": "fabchat-3d6d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419354789438:android:d0f6790cf6b6231a0f336f",
+        "android_client_info": {
+          "package_name": "com.mianasad.ShyChat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419354789438-3f1sdjta7460ur6mtidpk3c4kj4af8i1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mianasad.ShyChat",
+            "certificate_hash": "bfc96bb899811cdef1a627eb483623def97d5baf"
+          }
+        },
+        {
+          "client_id": "419354789438-2h3kri41mk880dgrccnucn0ae1se68aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvySFfUQxQlUN-j1GVLWnhc7_BiTZf2fU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419354789438-2h3kri41mk880dgrccnucn0ae1se68aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

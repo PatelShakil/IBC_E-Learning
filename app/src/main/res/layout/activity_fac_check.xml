@@ -1,0 +1,138 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.PhoneNumberActivity"
+        android:layout_gravity="center"
+        android:backgroundTint="#51a3b8"
+        android:background="#51a3b8">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginHorizontal="10dp"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Select Semester: "
+             android:layout_marginLeft="10dp"
+             android:textColor="@color/black"
+             android:textSize="15sp"/>
+         <Spinner
+             android:id="@+id/sem"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:entries="@array/sem"
+             android:gravity="left"/>
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginHorizontal="10dp"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Select Subject: "
+             android:layout_marginLeft="10dp"
+             android:textColor="@color/black"
+             android:textSize="15sp"/>
+         <Spinner
+             android:id="@+id/subject"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="left"
+             />
+     </LinearLayout>
+
+     <TextView
+         android:id="@+id/warning"
+         android:visibility="gone"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="If You Are Not A Faculty then Kindly Go Back"
+         android:layout_marginHorizontal="20dp"
+         android:textSize="30dp"
+         android:gravity="center_horizontal"
+         android:textColor="@color/black"
+         android:textStyle="bold"/>
+
+     <LinearLayout
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Enter Security Key"
+                android:textColorHint="@color/black"
+                android:padding="9dp" />
+
+         <Button
+                android:id="@+id/btn_signIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="Upload NOtes"
+                android:textSize="20dp"
+                android:backgroundTint="#397a98"
+                app:cornerRadius="8dp" />
+         <Button
+             android:id="@+id/uploadnotice"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:padding="15dp"
+             android:text="Upload TEXT Notice"
+             android:textSize="20dp"
+             android:backgroundTint="#397a98"
+             app:cornerRadius="8dp" />
+         <Button
+             android:id="@+id/uploadpdfnotice"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:padding="15dp"
+             android:text="Upload PDF Notice"
+             android:textSize="20dp"
+             android:backgroundTint="#397a98"
+             app:cornerRadius="8dp" />
+         <Button
+             android:id="@+id/create_reminder"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:padding="15dp"
+             android:text="Create Reminder"
+             android:textSize="20dp"
+             android:backgroundTint="#397a98"
+             app:cornerRadius="8dp" />
+     </LinearLayout>
+    </LinearLayout>
+ </ScrollView>

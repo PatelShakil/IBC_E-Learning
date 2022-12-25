@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        />
+    <item
+        android:id="@+id/group"
+        android:title="Groups"
+        android:icon="@drawable/group"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/user_profile"
+        android:title="My Profile"/>
+    <item
+        android:id="@+id/stafftalk"
+        android:title="Staff Talk"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="About"/>
+    <item
+        android:id="@+id/login_newaccount"
+        android:title="SignOut"/>
+</menu>

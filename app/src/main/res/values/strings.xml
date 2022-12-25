@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">IBC E-Learning</string>
+    <string name="bodyexample">Hello Buddies,Stack Overflow helps people find the answers they need, when they need them. We\'re best known for our public QA platform that over 100 million people visit every month to ask questions, learn, and share technical knowledge. Our products and tools empower people to find what they need to develop technology at work or at home. These products include, Stack Overflow for Teams, Stack Overflow Advertising, Collectives™ on Stack Overflow, and Stack Overflow Talent. Stack Overflow helps people find the answers they need, when they need them. We\'re best known for our public QA platform that over 100 million people visit every month to ask questions, learn, and share technical knowledge. Our products and tools empower people to find what they need to develop technology at work or at home. These products include, Stack Overflow for Teams, Stack Overflow Advertising, Collectives™ on Stack Overflow, and Stack Overflow Talent.</string>
+    <string name="about">->    A big \'Thank You\' to <b><u>Patel M.Shakil</u></b> for his efforts towards . As we come to the close of this innovative.</string>
+    <string name="dev"><b><u>Note</u>: </b> If you facing any issue with this app kindly contact developer from below buttons.  Thank you</string>
+    <string name="iqra">http://www.iqraitc.com/bca.html</string>
+    <string name="vnsgu">https://www.vnsgu.ac.in/</string>
+    <string-array name="type">
+        <item>Student</item>
+        <item>Staff</item>
+    </string-array>
+    <string-array name="sem">
+        <item>SEM-I</item>
+        <item>SEM-II</item>
+        <item>SEM-III</item>
+        <item>SEM-IV</item>
+        <item>SEM-V</item>
+        <item>SEM-VI</item>
+    </string-array>
+    <string-array name="sem1">
+        <item>CS(101)</item>
+        <item>MATHS(102)</item>
+        <item>IC(103)</item>
+        <item>CPPM(104)</item>
+        <item>DMA(105)</item>
+    </string-array>
+    <string-array name="sem2">
+        <item>OSB(201)</item>
+        <item>IIH(201)</item>
+        <item>CFA(202)</item>
+        <item>ET IT(202)</item>
+        <item>OS-I(203)</item>
+        <item>PS(204)</item>
+        <item>RDBMS(205)</item>
+    </string-array>
+    <string-array name="sem3">
+        <item>SM(301)</item>
+        <item>SE(302)</item>
+        <item>DHUP(303)</item>
+        <item>OOP DS(304)</item>
+        <item>WD-I(305)</item>
+        <item>MAD-I(305)</item>
+    </string-array>
+    <string-array name="sem4">
+        <item>IS(401)</item>
+        <item>IOT(402)</item>
+        <item>JAVA(403)</item>
+        <item>NET(404)</item>
+        <item>WD-II(405)</item>
+        <item>MAD-II(405)</item>
+    </string-array>
+    <string-array name="sem5">
+        <item>AWD(501)</item>
+        <item>AMC(501)</item>
+        <item>UNIX(502)</item>
+        <item>NT(503)</item>
+        <item>WFS(504)</item>
+        <item>ASP(505)</item>
+    </string-array>
+    <string-array name="sem6">
+        <item>CG(601)</item>
+        <item>FCC(601)</item>
+        <item>EC CS(602)</item>
+        <item>PROJECT(603)</item>
+        <item>SEMINAR(604)</item>
+    </string-array>
+</resources>

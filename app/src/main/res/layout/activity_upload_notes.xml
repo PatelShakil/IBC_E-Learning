@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Study.Activity.UploadNotes">
+
+    <ImageView
+        android:id="@+id/browse"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_search"
+        app:layout_constraintBottom_toTopOf="@+id/et_bookname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/filelogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:foreground="@drawable/pdf_img"
+        android:foregroundTint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/et_bookname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/filecancel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:foreground="@drawable/close"
+        android:foregroundTint="@color/black"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/browse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_bookname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/up"
+        app:layout_constraintTop_toBottomOf="@+id/browse"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Enter File Name"
+        android:padding="9dp"/>
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_bookname"
+        android:layout_marginBottom="250dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
